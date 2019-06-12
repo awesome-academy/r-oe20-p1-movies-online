@@ -31,3 +31,4 @@ node_modules/
 config/master.key
 config/database.yml
 /test
+.idea
