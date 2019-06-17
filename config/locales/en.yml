@@ -6,7 +6,26 @@ en:
     dang_nhap: "LOGIN"
     dang_ky: "REGISTER"
     search: "SEARCH"
+    profile: Profile
+    log_out: Log out
+    admin: Admin
   static_pages:
     new_movies_update: "NEW MOVIES UPDATE"
     top_rated: "TOP RATED"
     most_commented: "MOST COMMENTED"
+
+  users:
+    new:
+      create_success: "Welcome to movies!"
+      signup: Sign Up
+      confirmation: Confirmation
+      create_account: Create my account
+      not_found_user: Can't not find user
+
+  sessions:
+    new:
+      log_out: Log out
+      login: Log in
+      sign_up_now: Sign up now!
+      new_user: New user?
+      invalid_login: Invalid email/password combination

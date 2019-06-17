@@ -2,4 +2,5 @@
  *= require_self
  *= require ie6
  *= require style
+ *= require users.scss
  */

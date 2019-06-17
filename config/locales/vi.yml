@@ -6,7 +6,26 @@ vi:
     dang_nhap: "ĐĂNG NHẬP"
     dang_ky: "ĐĂNG KÝ"
     search: "TÌM KIẾM"
+    profile: Thông tin
+    log_out: Đăng xuất
+    admin: Admin
   static_pages:
     new_movies_update: "PHIM MỚI CẬP NHẬT"
     top_rated: "TOP ĐÁNH GIÁ"
     most_commented: "BÌNH LUẬN NHIỀU NHẤT"
+
+  users:
+    new:
+      create_success: "Welcome to the Sample App!"
+      signup: Đăng
+      confirmation: Xác nhận
+      create_account: Tạo tài khoản
+      not_found_user: Không tìm thấy người dùng
+
+  sessions:
+    new:
+      log_out: Đăng xuất
+      login: Đăng nhập
+      sign_up_now: Đăng ký ngay!
+      new_user: Tài khoản mới?
+      invalid_login: Email/Password Không hợp lệ
