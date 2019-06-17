@@ -1,1 +1,12 @@
 en:
+  layouts:
+    trang_chu: "HOME"
+    phim_bo: "SERIES-FILM"
+    phim_le: "RETAIL-FILM"
+    dang_nhap: "LOGIN"
+    dang_ky: "REGISTER"
+    search: "SEARCH"
+  static_pages:
+    new_movies_update: "NEW MOVIES UPDATE"
+    top_rated: "TOP RATED"
+    most_commented: "MOST COMMENTED"

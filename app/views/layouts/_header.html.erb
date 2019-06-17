@@ -1,0 +1,23 @@
+<header>
+  <div id="header">
+    <h1 id="logo"><a href="#"></a></h1>
+    <div id="navigation">
+      <ul>
+        <li><%= link_to t("layouts.trang_chu"), "#" %></li>
+        <li><%= link_to t("layouts.phim_bo"), "#" %></li>
+        <li><%= link_to t("layouts.phim_le"), "#" %></li>
+        <li><%= link_to t("layouts.dang_nhap"), "#" %></li>
+        <li><%= link_to t("layouts.dang_ky"), "#" %></li>
+      </ul>
+    </div>
+    <div id="sub-navigation">
+      <div id="search">
+        <form action="#" method="get" accept-charset="utf-8">
+          <label for="search-field"><%= t("layouts.search") %></label>
+          <input type="text" name="search field" value="Enter search here" id="search-field" class="blink search-field"  />
+          <input type="submit" value="GO!" class="search-button" />
+        </form>
+      </div>
+    </div>
+  </div>
+</header>

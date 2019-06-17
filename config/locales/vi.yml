@@ -1,0 +1,12 @@
+vi:
+  layouts:
+    trang_chu: "TRANG CHỦ"
+    phim_bo: "PHIM BỘ"
+    phim_le: "PHIM LẺ"
+    dang_nhap: "ĐĂNG NHẬP"
+    dang_ky: "ĐĂNG KÝ"
+    search: "TÌM KIẾM"
+  static_pages:
+    new_movies_update: "PHIM MỚI CẬP NHẬT"
+    top_rated: "TOP ĐÁNH GIÁ"
+    most_commented: "BÌNH LUẬN NHIỀU NHẤT"

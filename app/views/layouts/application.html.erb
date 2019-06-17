@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>ROe20P1MoviesOnline</title>
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
-
-    <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track": "reload" %>
-    <%= javascript_include_tag "application", "data-turbolinks-track": "reload" %>
-  </head>
-
-  <body>
-    <%= yield %>
-  </body>
+<head>
+  <title>MovieHunter</title>
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
+  <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track": "reload" %>
+  <%= javascript_include_tag "application", "data-turbolinks-track": "reload" %>
+</head>
+<body>
+<h4>
+  <%= link_to "English", locale: "en" %>
+  <%= link_to "Vietnamese", locale: "vi" %>
+</h4>
+<div id="shell">
+  <%= render "layouts/header" %>
+  <%= yield %>
+  <%= render "layouts/footer" %>
+</div>
+</body>
 </html>
