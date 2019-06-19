@@ -2,3 +2,4 @@ name_min: 5
 name_max: 20
 email_max: 50
 password_min: 6
+boolean_box: "1"
