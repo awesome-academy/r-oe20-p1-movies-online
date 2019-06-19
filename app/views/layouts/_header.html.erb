@@ -3,11 +3,17 @@
     <h1 id="logo"><a href="#"></a></h1>
     <div id="navigation">
       <ul>
-        <li><%= link_to t("layouts.trang_chu"), "#" %></li>
+        <li><%= link_to t("layouts.trang_chu"), root_url %></li>
         <li><%= link_to t("layouts.phim_bo"), "#" %></li>
         <li><%= link_to t("layouts.phim_le"), "#" %></li>
-        <li><%= link_to t("layouts.dang_nhap"), "#" %></li>
-        <li><%= link_to t("layouts.dang_ky"), "#" %></li>
+        <% if logged_in? %>
+          <li><%= link_to t("layouts.profile"), current_user %></li>
+          <li><%= link_to t("layouts.log_out"), logout_path, method: :delete %></li>
+          <li><%= link_to t("layouts.admin"), '#' %></li>
+      <% else %>
+          <li><%= link_to t("layouts.dang_nhap"), login_path %></li>
+          <li><%= link_to t("layouts.dang_ky"), new_user_path %></li>
+        <% end %>
       </ul>
     </div>
     <div id="sub-navigation">
